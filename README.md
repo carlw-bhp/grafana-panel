@@ -16,6 +16,10 @@ This uses Grafana 7. This will not work in Grafana 6 and below.
 
 ```BASH
 yarn install
+
+# or if used inside a virtual machine
+
+yarn install --no-bin-links
 ```
 
 2. Build plugin in development mode or run in watch mode

@@ -1,0 +1,32 @@
+{
+  "name": "project-example",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch"
+  },
+  "repository": "github:carlw-bhp/grafana-panel",
+  "author": "Carl Winkler",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/carlw-bhp/grafana-panel/issues",
+    "email": "plugins@grafana.com"
+  },
+  "devDependencies": {
+    "@grafana/data": "7.0.0-beta.1",
+    "@grafana/toolkit": "7.0.0-beta.1",
+    "@grafana/ui": "7.0.0-beta.1"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.9.0"
+  },
+  "engines": {
+    "node": ">=12 <13"
+  },
+  "dependencies": {
+    "emotion": "10.0.27"
+  }
+}
